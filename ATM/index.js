@@ -7,9 +7,6 @@ All the user data is generated randomly.
 */
 import inquirer from "inquirer";
 import chalk from "chalk";
-// (async () => {
-//     await showBanner('ATM', 'Welcome to Pakistan Banking', 'green');
-// })();
 (async function atm() {
     const userInput = await inquirer.prompt([
         {
