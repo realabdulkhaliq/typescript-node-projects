@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 /*
 Develop a simple command line calculator using TypeScipt, Node.js and Inquirer.
 */
@@ -21,7 +22,7 @@ import inquirer from "inquirer";
         }
     ]);
     if (input.operation === "Add") {
-        console.log(input.firstNumber + input.secondNumber);
+        console.log(Number(input.firstNumber) + Number(input.secondNumber));
     }
     if (input.operation === "Subtract") {
         console.log(input.firstNumber - input.secondNumber);
