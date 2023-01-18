@@ -1,0 +1,20 @@
+{
+  "name": "ak_i_todolist",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "bin": "./index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4"
+  }
+}
